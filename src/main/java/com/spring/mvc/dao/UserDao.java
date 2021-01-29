@@ -16,7 +16,6 @@ public class UserDao {
 	@Transactional // For turn on writing mode
 	public int saveUser(UserBean userBean) {
 		int id = (int) this.hibernateTemplate.save(userBean);
-		
 		return id;
 	}
 }
