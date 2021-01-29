@@ -43,5 +43,4 @@ public class UserBean {
 	public String toString() {
 		return "UserBean [name=" + name + ", email=" + email + ", password=" + password + "]";
 	}
-
 }
