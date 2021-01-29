@@ -56,6 +56,7 @@ public class RegisterController {
 		System.out.println("======getName=======" + userBean.getName());
 		System.out.println("======getEmail=======" + userBean.getEmail());
 		System.out.println("======getPassword=======" + userBean.getPassword());
+		
 		/* Validation */
 		if (userBean.getName().trim().equals("") || userBean.getEmail().trim().equals("")
 				|| userBean.getPassword().trim().equals("")) {
