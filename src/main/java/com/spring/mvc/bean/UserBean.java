@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class UserBean {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
