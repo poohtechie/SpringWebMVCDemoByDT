@@ -27,7 +27,6 @@ public class RedirectController {
 
 	@RequestMapping("/third")
 	public String third() {
-		
 		return "register";
 	}
 }
