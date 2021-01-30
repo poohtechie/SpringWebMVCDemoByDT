@@ -35,6 +35,7 @@
 		${dateKey}
 	</h4>
 	<hr>
+	
 	<h4>${listKey}</h4>
 	<c:forEach var="item" items="${listKey}">
 		<h4>${item}</h4>
